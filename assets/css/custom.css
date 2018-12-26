@@ -1,0 +1,217 @@
+/*
+Template : Maytrabyte One
+Version : 1.0
+Author : Maytrabyte One
+*/
+
+/*------ Font ------*/
+
+/*==========================*/
+/* PUBLIC */
+/*==========================*/
+body{
+	font-family: 'Kanit', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #4d4d4d;
+	width: 100%
+}
+
+.wrapper{
+
+}
+
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/*==========================*/
+/* HEADER */
+/*==========================*/
+
+/*------ NAVBAR ------*/
+#top-nav ul{
+	list-style: none;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+#top-nav .navbar-brand img{
+	width: 70%;
+}
+#top-nav .img-top-nav{
+	height: auto;
+	width: 32px;
+    margin-top: 8px;
+}
+#top-nav .nav-contact-title{
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+#bottom-nav{
+	background-color: #0d79bc;
+}
+#bottom-nav .navbar-nav .nav-item :hover, #bottom-nav .navbar-nav .nav-item :active{
+	background-color: #1595d5;
+}
+#bottom-nav .navbar-nav .nav-item a{
+	color: #ffffff;
+	padding: 15px 20px;
+	transition: 0.3s;
+}
+
+/*==========================*/
+/* CONTENT */
+/*==========================*/
+
+/*------ SLIDER ------*/
+
+.owl-carousel .owl-nav{
+	position: absolute;
+    top: 44%;
+    width: 100%
+}
+.owl-carousel.slider .owl-nav button.owl-next, .owl-carousel.slider .owl-nav button.owl-prev{
+	background-color: rgba(248, 249, 250, 0.7);
+    font-size: 20px;
+    color: #8d909e;
+}
+.owl-carousel.slider .owl-nav button.owl-prev{
+	padding: 15px 10px 15px 5px !important;
+}
+
+.owl-carousel.slider .owl-nav button.owl-next{
+	position: absolute;
+	right: 0;
+	padding: 15px 5px 15px 10px !important;
+}
+
+
+/*------ BOX SEARCH ------*/
+
+.part-form-search{
+	position: relative;
+	z-index: 5;
+	height: 50px;
+}
+.box{
+	background: #fff;
+	border-radius: 2px;
+	width: auto;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.box-search-domain {
+	position: absolute;
+    left: 25%;
+    transform: translateY(-60%);
+    padding: 20px 30px;
+}
+
+/*------ ABOUT US SECTION ------*/
+.about-section{
+
+}
+.about-section h1.about-title{
+	color: #0d79bc;
+	font-size: 1.75rem;
+}
+.about-section .about-sub-title{
+	font-size: 1.25rem;
+}
+
+/*------ FOOTER ------*/
+
+footer{
+	background-color: #134c6f;
+	color: #f2f2f2;
+}
+footer .footer-top{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+}
+footer .footer-middle{
+	padding-top: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+}
+footer .footer-middle .ft-title{
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+.footer-middle .ft-list,.footer-bottom .ft-list{
+	list-style: none;
+	padding-left: 12px;
+}
+.footer-bottom .ft-list{
+	display: -ms-flexbox;
+    display: flex;
+}
+.footer-bottom .ft-list .ft-item a{
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid rgba(230, 230, 230, 0.5);
+}
+.footer-middle .ft-list .ft-item{
+	margin-bottom: 5px;
+}
+.footer-middle .ft-list .ft-item a{
+	color: #ffffff;
+	font-size: 12px;
+}
+.footer-middle .ft-brand-logo{
+	margin-bottom: 15px;
+}
+.footer-middle .ft-brand-logo img{
+	max-width: 52%;
+}
+.footer-middle .ft-social .social-list{
+	list-style: none;
+	display: -ms-flexbox;
+    display: flex;
+    padding-left: 0px;
+}
+.footer-middle .ft-social .social-list .social-item{
+	margin-right: 10px;
+}
+.footer-middle .ft-social .social-list .social-item i{
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    border-radius: 100%;
+    background-color: #555;
+}
+.footer-middle .ft-social .social-list li.facebook i{
+	background-color: #4267b2;
+}
+.footer-middle .ft-social .social-list li.twitter i{
+	background-color: #1da1f2;
+}
+.footer-middle .ft-social .social-list li.google-plus i{
+	background-color: #db4437;
+}
+.footer-middle .ft-social .social-list li.linkedin i{
+	background-color: #0073b1;
+}
+.footer-middle .ft-social .social-list li.youtube i{
+	background-color: #cd201f;
+}
+.ft-line{
+	width: 100%;
+}
+.ft-line .img-line{
+	width: 120px;
+	height: auto;
+}
+
+
+/*==========================*/
+/* RESPONSIVE*/
+/*==========================*/

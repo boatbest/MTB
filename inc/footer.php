@@ -7,7 +7,7 @@
 					<label>Call Center : 02-1054283</label>
 				</div>
 				<div class="col-md-3">
-					<i class="fas fa-headset"></i>
+					<i class="fas fa-envelope"></i>
 					<label>support@metrabyteone.co.th</label>
 				</div>
 				<div class="col-md-3">

@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow" />
 
     <!-- ICON -->
-    <link rel="icon" type="image/png" href="#" sizes="16x16">
+    <link rel="shortcut icon" href="assets/images/mtb-icon.png" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="76x76" href="#">
 
     <!-- Bootstrap CSS -->
@@ -25,4 +25,4 @@
     <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500,600" rel="stylesheet">
     <link type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet" >
 
-    <title>Maytrabyte One</title>
+    <title>Metrabyte ONE เมทราไบต์ วัน – รู้จริงเรื่อง Hosting,Web Hosting,Email Hosting,VPS,Cloud</title>

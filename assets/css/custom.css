@@ -22,11 +22,20 @@ body{
 }
 
 section{
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.btn{
+	font-size: 14px;
 }
 
-
+.btn-yel{
+	background-color: #fbcc56;
+}
+.btn-blu{
+	background-color: #1595d5;
+	color: #ffffff;
+}
 /*==========================*/
 /* HEADER */
 /*==========================*/
@@ -65,6 +74,27 @@ section{
 /*==========================*/
 /* CONTENT */
 /*==========================*/
+
+/*------ HEADER SUB PAGE ------*/
+
+.head-sub-page {
+  background-image: url("../images/sub-page-bg.png");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.head-sub-page .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
 /*------ SLIDER ------*/
 
@@ -119,6 +149,63 @@ section{
 }
 .about-section .about-sub-title{
 	font-size: 1.25rem;
+}
+/*------ CHOOSE US SECTION ------*/
+.choose-us-section{
+	background-color: #f9f9fa;
+}
+.choose-us-section .card{
+	background-color: transparent;
+	border: none;
+	padding-bottom: 30px;
+}
+.choose-us-section .card-icon{
+	margin-bottom: 15px;
+}
+.choose-us-section .card-icon i{
+	color: #ffffff;
+	background-color: #fbcc56;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border-radius: 100%;
+}
+/*------ CHOOSE US SECTION ------*/
+.contact-section{
+	background-image: url("../images/bg-contact.jpg");
+  	height: 300px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.contact-section .hero-text {
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+}
+.collapse-contact{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.collapse-contact .des-contact{
+	color: #999999;
+	margin-bottom: 30px;
+}
+.collapse-contact .box-contact{
+	width: 650px;
+	padding: 30px;
+    box-shadow: 2px 2px 10px 0px #ced4da;
+}
+.form-control{
+	font-size: 14px;
+	font-weight: 300;
 }
 
 /*------ FOOTER ------*/

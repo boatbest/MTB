@@ -47,6 +47,169 @@
             
         </div>
     </section>
+
+    <!-- Choose Us -->
+    <section class="choose-us-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="fab fa-windows fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>Microsoft License</h6>
+                            <p>Services Provider License Agreement (SPLA) โดยเราใช้ Windows ลิขสิทธิ์ถูกต้อง</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-database fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>Datacenter</h6>
+                            <p>เราวาง Server ไว้ที่ Datacenter ชี้นนำอย่าง CSLOXINFO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>Free! Cloud Email 1GB</h6>
+                            <p>สำหรับผู้สมัคร VPS หรือ Hosting เราให้คุณได้ใช้ระบบ Email ที่มีประสิทธิภาพฟรี</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-bullhorn fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>THNIC Reseller</h6>
+                            <p>ได้รับการแต่งตั้งจาก THNIC เป็นตัวแทน จดโดเมน .TH ระดับ Titanium Plus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-users fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>Web Programmer Support</h6>
+                            <p>มี Web Programmer ที่มีประสบการณ์ ให้บริการปรึกษาปัญหา</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="far fa-clock fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>ONE Click Service install</h6>
+                            <p>ลูกค้าสามารถ Install Web Application ได้ด้วยตัวเอง</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-wrench fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>DELL Server</h6>
+                            <p>ใช้ Server สมรรถนะสูง มี Engineer ดูแลใกล้ชิด</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-icon">
+                            <i class="fas fa-dollar-sign fa-lg"></i>
+                        </div>
+                        <div class="card-content">
+                            <h6>30 Day Money-back Guarantee</h6>
+                            <p>หากไม่พอใจในการบริการ ยินดีคืนเงินใน 30 วัน</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Package -->
+    <section class="package-section">
+        
+    </section>
+
+    <!-- Counter -->
+    <section class="counter-section">
+
+    </section>
+
+    <!-- Contace Us -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="hero-image">
+              <div class="hero-text">
+                <h2>หากมีคำถามหรือข้อสงสัย?</h2>
+                <p>เรายินดีให้คำปรึกษาหากลูกค้ามีข้อสงสัยเกี่ยวกับสินค้าหรือบริการของเรา</p>
+                <div class="d-flex flex-row px-5">
+                    <div class="p-2">
+                        <i class="fas fa-headset fa-5x"></i>
+                    </div>
+                    <div class="p-2 text-left">
+                        <h4 style="font-weight: 400; font-size: 1.25rem;">ติดต่อศูนย์บริการ (ทุกวัน)</h4>
+                        <a data-finalurl="tel:021054283" data-name="tel:021054283" data-type="url" data-url="tel:021054283" href="tel:021054283">
+                            <h2 style="color:rgba(255,255,255,1);">02-1054-283</h2>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <button class="btn btn-yel mt-2" type="button" data-toggle="collapse" data-target="#collapseContact" aria-expanded="false" aria-controls="collapseContact">ติดต่อเรา</button>
+
+              </div>
+            </div>
+        </div>
+    </section>
+        <div class="container">
+            <div class="collapse" id="collapseContact">
+                <div class="collapse-contact text-center">
+                    <h1 class="">ติดต่อเรา</h1>
+                    <label class="des-contact">คุณสามารถติดต่อแจ้งข้อมูลผ่านทางแบบฟอร์ม Online หรือ สามารถติดต่อพูดคุยผ่าน Line ID: @mtbone</label>
+                    <div class="box-contact mx-auto">
+                        <form>
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <input type="text" class="form-control" id="inputName" placeholder="ชื่อ - นามสกุล">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="inputSubject" placeholder="หัวเรื่อง">
+                          </div>
+                          <div class="form-group">
+                            <textarea class="form-control" id="FormControlTextarea1" rows="8"></textarea>
+                          </div>
+                          <div class="text-right">
+                              <button type="submit" class="btn btn-blu">ส่งข้อความ</button>
+                          </div>
+                          
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     <?php include_once('inc/footer.php');?>
     <?php include_once('inc/footer-script.php'); ?>
     <script type="text/javascript">

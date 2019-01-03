@@ -48,9 +48,140 @@
         </div>
     </section>
 
+    <!-- Package -->
+    <section class="package-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Metrabyte ONE มุ่งมันพัฒนาบริการ ด้วยประสบการณ์มากกว่า 10 ปี</h2>
+                <label>METRABYTE ONE ให้บริการ vps hosting,dedicated hosting,vps cloud ทั้ง windows และ linux รวมทั้ง cloud email มี package ให้ท่านเลือก ดังนี้</label>
+            </div>
+            <div class="row price-table-layout">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="listing-item">
+                        <div class="pt-head bg-blue">
+                            <div class="title-package">
+                                <span>CLOUD VPS WINDOW</span>
+                            </div>
+                            <div class="price-package">    
+                            <span class="price">
+                                <span class="currency">700</span>
+                                <span class="cent">฿</span>
+                                <p class="month">บาทต่อเดือน</p>
+                            </span>
+                        </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <ul class="pt-detail">
+                                <li>CPU 2 Core RAM 2 GB</li>
+                                <li>Harddisk 100GB</li>
+                                <li>1 IP Address</li>
+                                <li>Directadmin Control Panel</li>
+                                <li>Free! Cloud Email 1GB</li>
+                            </ul>
+                            <div class="pt-btn-order">
+                                <a href="#" class="btn bg-blue w-100">สั่งซื้อสินค้า</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="listing-item">
+                        <div class="pt-head bg-green">
+                            <div class="title-package">
+                                <span>CLOUD VPS WINDOW</span>
+                            </div>
+                            <div class="price-package">    
+                            <span class="price">
+                                <span class="currency">700</span>
+                                <span class="cent">฿</span>
+                                <p class="month">บาทต่อเดือน</p>
+                            </span>
+                        </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <ul class="pt-detail">
+                                <li>CPU 2 Core RAM 2 GB</li>
+                                <li>Harddisk 100GB</li>
+                                <li>1 IP Address</li>
+                                <li>Directadmin Control Panel</li>
+                                <li>Free! Cloud Email 1GB</li>
+                            </ul>
+                            <div class="pt-btn-order">
+                                <a href="#" class="btn bg-green w-100">สั่งซื้อสินค้า</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="listing-item">
+                        <div class="pt-head bg-orange">
+                            <div class="title-package">
+                                <span>CLOUD VPS WINDOW</span>
+                            </div>
+                            <div class="price-package">    
+                            <span class="price">
+                                <span class="currency">1000</span>
+                                <span class="cent">฿</span>
+                                <p class="month">บาทต่อเดือน</p>
+                            </span>
+                        </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <ul class="pt-detail">
+                                <li>CPU 2 Core RAM 2 GB</li>
+                                <li>Harddisk 100GB</li>
+                                <li>1 IP Address</li>
+                                <li>Directadmin Control Panel</li>
+                                <li>Free! Cloud Email 1GB</li>
+                            </ul>
+                            <div class="pt-btn-order">
+                                <a href="#" class="btn bg-orange w-100">สั่งซื้อสินค้า</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="listing-item">
+                        <div class="pt-head bg-pink">
+                            <div class="title-package">
+                                <span>CLOUD VPS WINDOW</span>
+                            </div>
+                            <div class="price-package">    
+                            <span class="price">
+                                <span class="currency">1000</span>
+                                <span class="cent">฿</span>
+                                <p class="month">บาทต่อเดือน</p>
+                            </span>
+                        </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <ul class="pt-detail">
+                                <li>CPU 2 Core RAM 2 GB</li>
+                                <li>Harddisk 100GB</li>
+                                <li>1 IP Address</li>
+                                <li>Directadmin Control Panel</li>
+                                <li>Free! Cloud Email 1GB</li>
+                            </ul>
+                            <div class="pt-btn-order">
+                                <a href="#" class="btn bg-pink w-100">สั่งซื้อสินค้า</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Choose Us -->
     <section class="choose-us-section">
         <div class="container">
+            <div class="section-title text-center">
+                <h2>ทำไมต้องเลือกใช้บริการกับ Metrabyte ONE</h2>
+            </div>
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="card text-center">
@@ -144,14 +275,45 @@
         </div>
     </section>
 
-        <!-- Package -->
-    <section class="package-section">
-        
-    </section>
-
     <!-- Counter -->
     <section class="counter-section">
-
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>ลูกค้าที่เลือกใช้บริการกับเรา</h2>
+            </div>
+            <nav>
+                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="client-cloud-tab" data-toggle="tab" href="#client-cloud" role="tab" aria-controls="client-cloud" aria-selected="true"> ลูกค้า Cloud</a>
+                    <a class="nav-item nav-link" id="client-enterprise-tab" data-toggle="tab" href="#client-enterprise" role="tab" aria-controls="client-enterprise" aria-selected="false">ลูกค้า Enterprise</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="client-cloud" role="tabpanel" aria-labelledby="client-cloud-tab">
+                    <ul class="cl-list">
+                        <li class="cl-item"><img src="assets/images/client/client01.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client02.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client03.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client04.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client05.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client06.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client07.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client08.jpg" class="img-fluid"></li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="client-enterprise" role="tabpanel" aria-labelledby="client-enterprise-tab">
+                    <ul class="cl-list">
+                        <li class="cl-item"><img src="assets/images/client/client01.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client02.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client03.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client04.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client05.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client06.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client07.jpg" class="img-fluid"></li>
+                        <li class="cl-item"><img src="assets/images/client/client08.jpg" class="img-fluid"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contace Us -->

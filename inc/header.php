@@ -23,6 +23,7 @@
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,500,600" rel="stylesheet">
-    <link type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet" >
+    <link type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+
 
     <title>Metrabyte ONE เมทราไบต์ วัน – รู้จริงเรื่อง Hosting,Web Hosting,Email Hosting,VPS,Cloud</title>

@@ -275,8 +275,8 @@
         </div>
     </section>
 
-    <!-- Counter -->
-    <section class="counter-section">
+    <!-- Client -->
+    <section class="client-section">
         <div class="container">
             <div class="section-title text-center">
                 <h2>ลูกค้าที่เลือกใช้บริการกับเรา</h2>
@@ -311,6 +311,98 @@
                         <li class="cl-item"><img src="assets/images/client/client07.jpg" class="img-fluid"></li>
                         <li class="cl-item"><img src="assets/images/client/client08.jpg" class="img-fluid"></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Counter -->
+    <section class="counter-section" id="stats">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>GET YOUR WEBSITE ONLINE TODAY</h2>
+                <label>กว่า 15,000 website ที่เลือกใช้บริการกับเรา</label>
+            </div>
+            <div class="row text-center">
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <img src="assets/images/icon/icon-web.png" width="60">
+                        <h2><span class="counter text-center">12552</span><span>+</span></h2>
+                        <p>website</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <img src="assets/images/icon/icon-group.png" width="60">
+                        <h2><span class="counter text-center">11500</span><span>+</span></h2>
+                        <p>Customer</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <img src="assets/images/icon/icon-email.png" width="60">
+                        <h2><span class="counter text-center">300250</span><span>+</span></h2>
+                        <p>Email</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <img src="assets/images/icon/icon-server.png" width="60">
+                        <h2><span class="counter text-center">11500</span><span>+</span></h2>
+                        <p>Domains</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>คำถามที่พบบ่อย</h2>
+                <label>คำถามที่พบบ่อยจากลูกค้าที่ใช้บริการเราโดยตรง ซึ่งหัวข้อคำถามมีดังนี้</label>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Harddisk แบบ SSD ดีอย่างไร?</h6>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      SSD ย่อมาจาก Solid state drive คืออุปกรณ์อิเล็กทรนิกส์ที่ทำหน้าที่เหมือนกับฮาร์ดดิกส์เพียงแต่หลักการทำงานนั้นแตกต่างจากฮาร์ดดิกส์รุ่นเก่า เป็นเทคโนโลยีใหม่ที่คนกำลังให้ความสนใจจำนวนมาก มันเป็นสิ่งที่แสดงให้เห็นถึงความก้าวหน้าทางเทคโนโลยีของหน่วยความจำหลัก การเปลี่ยนมาใช้ เอสเอสดี (SSD) ไม่ได้ปรับปรุงประสิทธิการทำงานเล็กๆ น้อยๆ แต่มันต่างกันกับฮาร์ดดิสก์ (HDD) อย่างเห็นได้ชัดเจน ในด้านความเร็วในการ Read/Write ข้อมูล เร็วกว่า มีผลทดสอบในการอ่านเร็วกว่า Harddisk ปกติ 3-8 เท่า เขียน เร็วกว่า 2-5 เท่า
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">มี Web Hosting ที่ใช้ส่ง Mail ได้อยู่แล้ว ทำไมต้องเปลี่ยนมาใช้ Cloud Email Hosting ?</h6>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      SSD ย่อมาจาก Solid state drive คืออุปกรณ์อิเล็กทรนิกส์ที่ทำหน้าที่เหมือนกับฮาร์ดดิกส์เพียงแต่หลักการทำงานนั้นแตกต่างจากฮาร์ดดิกส์รุ่นเก่า เป็นเทคโนโลยีใหม่ที่คนกำลังให้ความสนใจจำนวนมาก มันเป็นสิ่งที่แสดงให้เห็นถึงความก้าวหน้าทางเทคโนโลยีของหน่วยความจำหลัก การเปลี่ยนมาใช้ เอสเอสดี (SSD) ไม่ได้ปรับปรุงประสิทธิการทำงานเล็กๆ น้อยๆ แต่มันต่างกันกับฮาร์ดดิสก์ (HDD) อย่างเห็นได้ชัดเจน ในด้านความเร็วในการ Read/Write ข้อมูล เร็วกว่า มีผลทดสอบในการอ่านเร็วกว่า Harddisk ปกติ 3-8 เท่า เขียน เร็วกว่า 2-5 เท่า
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Metrabyte ONE มีช่องทาง Support อย่างไร?</h6>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      SSD ย่อมาจาก Solid state drive คืออุปกรณ์อิเล็กทรนิกส์ที่ทำหน้าที่เหมือนกับฮาร์ดดิกส์เพียงแต่หลักการทำงานนั้นแตกต่างจากฮาร์ดดิกส์รุ่นเก่า เป็นเทคโนโลยีใหม่ที่คนกำลังให้ความสนใจจำนวนมาก มันเป็นสิ่งที่แสดงให้เห็นถึงความก้าวหน้าทางเทคโนโลยีของหน่วยความจำหลัก การเปลี่ยนมาใช้ เอสเอสดี (SSD) ไม่ได้ปรับปรุงประสิทธิการทำงานเล็กๆ น้อยๆ แต่มันต่างกันกับฮาร์ดดิสก์ (HDD) อย่างเห็นได้ชัดเจน ในด้านความเร็วในการ Read/Write ข้อมูล เร็วกว่า มีผลทดสอบในการอ่านเร็วกว่า Harddisk ปกติ 3-8 เท่า เขียน เร็วกว่า 2-5 เท่า
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -374,6 +466,8 @@
         </div>
     <?php include_once('inc/footer.php');?>
     <?php include_once('inc/footer-script.php'); ?>
+    <script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
     <script type="text/javascript">
         $('.owl-carousel').owlCarousel({
             loop:true,
@@ -381,6 +475,13 @@
             nav:true,
             navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"]
         })
+
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 30,
+                time: 1000
+            });
+        });
     </script>
   </body>
 </html>

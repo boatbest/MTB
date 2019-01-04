@@ -225,41 +225,6 @@ hr.line-title{
     border-radius: 100%;
 }
 
-/*------ CHOOSE US SECTION ------*/
-.contact-section{
-	background-image: url("../images/bg-contact.jpg");
-  	height: 300px;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-}
-.contact-section .hero-text {
-  	text-align: center;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	color: white;
-}
-.collapse-contact{
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.collapse-contact .des-contact{
-	color: #999999;
-	margin-bottom: 30px;
-}
-.collapse-contact .box-contact{
-	width: 650px;
-	padding: 30px;
-    box-shadow: 2px 2px 10px 0px #ced4da;
-}
-.form-control{
-	font-size: 14px;
-	font-weight: 300;
-}
-
 /*------ PACKAGE ------*/
 .price-table-layout {
   	display: -webkit-box;
@@ -388,6 +353,80 @@ ul.cl-list{
 	border: 1px solid #cccccc;
 	width: 190px;
     margin: 10px;
+}
+
+/*------ COUNTER ------*/
+.counter-section{
+	background-image: url("../images/img-background.jpg");
+  	height: auto;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+.stat-item{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+    margin: auto 15px;
+}
+.stat-item h2{
+	margin-bottom: 0;
+}
+.stat-item p{
+	color: #999999;
+}
+
+/*------ FAQ ------*/
+.faq-section .accordion{
+	width: 82%;
+	margin: 0 auto; 
+}
+.accordion .card{
+	border: unset;
+	border-radius: unset;
+}
+.accordion .card-header{
+	background-color: #ffffff;
+}
+.accordion .card-body{
+	background-color: #f2f2f2;
+    line-height: 1.75;
+}
+
+
+/*------ CONTACT SECTION ------*/
+.contact-section{
+	background-image: url("../images/bg-contact.jpg");
+  	height: 300px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+.contact-section .hero-text {
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+}
+.collapse-contact{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.collapse-contact .des-contact{
+	color: #999999;
+	margin-bottom: 30px;
+}
+.collapse-contact .box-contact{
+	width: 650px;
+	padding: 30px;
+    box-shadow: 2px 2px 10px 0px #ced4da;
+}
+.form-control{
+	font-size: 14px;
+	font-weight: 300;
 }
 
 /*------ TABS ------*/

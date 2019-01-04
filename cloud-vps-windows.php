@@ -77,51 +77,51 @@
                 </div>
               </div>
 
+              <br/>
+              <br/>
+              
               <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link" type="button" >
-                        Collapsible Group Item #1
-                      </button>
-                    </h5>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Harddisk แบบ SSD ดีอย่างไร?</h6>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
                   </div>
 
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      SSD ย่อมาจาก Solid state drive คืออุปกรณ์อิเล็กทรนิกส์ที่ทำหน้าที่เหมือนกับฮาร์ดดิกส์เพียงแต่หลักการทำงานนั้นแตกต่างจากฮาร์ดดิกส์รุ่นเก่า เป็นเทคโนโลยีใหม่ที่คนกำลังให้ความสนใจจำนวนมาก มันเป็นสิ่งที่แสดงให้เห็นถึงความก้าวหน้าทางเทคโนโลยีของหน่วยความจำหลัก การเปลี่ยนมาใช้ เอสเอสดี (SSD) ไม่ได้ปรับปรุงประสิทธิการทำงานเล็กๆ น้อยๆ แต่มันต่างกันกับฮาร์ดดิสก์ (HDD) อย่างเห็นได้ชัดเจน ในด้านความเร็วในการ Read/Write ข้อมูล เร็วกว่า มีผลทดสอบในการอ่านเร็วกว่า Harddisk ปกติ 3-8 เท่า เขียน เร็วกว่า 2-5 เท่า
                     </div>
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Collapsible Group Item #2
-                      </button>
-                    </h5>
+                  <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">มี Web Hosting ที่ใช้ส่ง Mail ได้อยู่แล้ว ทำไมต้องเปลี่ยนมาใช้ Cloud Email Hosting ?</h6>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      SSD ย่อมาจาก Solid state drive คืออุปกรณ์อิเล็กทรนิกส์ที่ทำหน้าที่เหมือนกับฮาร์ดดิกส์เพียงแต่หลักการทำงานนั้นแตกต่างจากฮาร์ดดิกส์รุ่นเก่า เป็นเทคโนโลยีใหม่ที่คนกำลังให้ความสนใจจำนวนมาก มันเป็นสิ่งที่แสดงให้เห็นถึงความก้าวหน้าทางเทคโนโลยีของหน่วยความจำหลัก การเปลี่ยนมาใช้ เอสเอสดี (SSD) ไม่ได้ปรับปรุงประสิทธิการทำงานเล็กๆ น้อยๆ แต่มันต่างกันกับฮาร์ดดิสก์ (HDD) อย่างเห็นได้ชัดเจน ในด้านความเร็วในการ Read/Write ข้อมูล เร็วกว่า มีผลทดสอบในการอ่านเร็วกว่า Harddisk ปกติ 3-8 เท่า เขียน เร็วกว่า 2-5 เท่า
                     </div>
                   </div>
                 </div>
                 <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Collapsible Group Item #3
-                      </button>
-                    </h5>
+                  <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mb-0">Metrabyte ONE มีช่องทาง Support อย่างไร?</h6>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      SSD ย่อมาจาก Solid state drive คืออุปกรณ์อิเล็กทรนิกส์ที่ทำหน้าที่เหมือนกับฮาร์ดดิกส์เพียงแต่หลักการทำงานนั้นแตกต่างจากฮาร์ดดิกส์รุ่นเก่า เป็นเทคโนโลยีใหม่ที่คนกำลังให้ความสนใจจำนวนมาก มันเป็นสิ่งที่แสดงให้เห็นถึงความก้าวหน้าทางเทคโนโลยีของหน่วยความจำหลัก การเปลี่ยนมาใช้ เอสเอสดี (SSD) ไม่ได้ปรับปรุงประสิทธิการทำงานเล็กๆ น้อยๆ แต่มันต่างกันกับฮาร์ดดิสก์ (HDD) อย่างเห็นได้ชัดเจน ในด้านความเร็วในการ Read/Write ข้อมูล เร็วกว่า มีผลทดสอบในการอ่านเร็วกว่า Harddisk ปกติ 3-8 เท่า เขียน เร็วกว่า 2-5 เท่า
                     </div>
                   </div>
                 </div>
-              </div>
+            </div>
 
               
 

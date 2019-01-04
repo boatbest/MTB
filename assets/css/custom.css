@@ -35,6 +35,7 @@ section{
 
 a, a:hover{
 	color: unset;
+	text-decoration: none;
 }
 
 .btn{
@@ -78,13 +79,45 @@ hr.line-title{
 #bottom-nav{
 	background-color: #0d79bc;
 }
-#bottom-nav .navbar-nav .nav-item :hover, #bottom-nav .navbar-nav .nav-item :active{
+#bottom-nav .navbar-nav .nav-item .nav-link:hover, #bottom-nav .navbar-nav .nav-item .nav-link:active, .navbar-nav .nav-item.active .nav-link{
 	background-color: #1595d5;
 }
-#bottom-nav .navbar-nav .nav-item a{
+#bottom-nav .navbar-nav .nav-item .nav-link{
 	color: #ffffff;
 	padding: 15px 20px;
 	transition: 0.3s;
+}
+#bottom-nav .nav-relate{
+	position: relative;
+}
+#bottom-nav .navbar-nav > li.dropdown.show {
+  position: static;
+}
+
+#bottom-nav .navbar-nav > li.dropdown.show .dropdown-menu {
+  	display: table;
+  	border-radius: 0px;
+  	width: 100%;
+  	padding: 25px;
+  	margin: 0px;
+  	left: 0;
+  	right: 0;
+    border: unset;
+    box-shadow: 2px 2px 10px 0px rgba(33, 37, 41, 0.15);
+}
+#bottom-nav .navbar-nav > li.dropdown.show .dropdown-menu{
+	color: #333333;
+}
+#bottom-nav .navbar-nav > li.dropdown.show .dropdown-menu a:hover{
+	background-color: rgba(27, 175, 234, 0.1);
+}
+#bottom-nav .img-bottom-nav {
+    height: auto;
+    width: 40px;
+}
+#bottom-nav .dropdown-menu label{
+	font-size: 14px;
+	color: #999999;
 }
 
 /*------ SIDE NAV ------*/
@@ -387,10 +420,27 @@ ul.cl-list{
 }
 .accordion .card-header{
 	background-color: #ffffff;
+	cursor: pointer;
 }
 .accordion .card-body{
 	background-color: #f2f2f2;
     line-height: 1.75;
+}
+.accordion .card-header i{
+	color: #0d79bc;
+}
+[data-toggle="collapse"][aria-expanded="true"] i {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+[data-toggle="collapse"][aria-expanded="false"] i {
+	-moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 

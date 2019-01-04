@@ -364,15 +364,15 @@
             </div>
             <div class="accordion" id="accordionExample">
                 <div class="card">
-                  <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     <div class="d-flex justify-content-between">
                         <h6 class="mb-0">Harddisk แบบ SSD ดีอย่างไร?</h6>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down rotate"></i>
                     </div>
                     
                   </div>
 
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
                       SSD ย่อมาจาก Solid state drive คืออุปกรณ์อิเล็กทรนิกส์ที่ทำหน้าที่เหมือนกับฮาร์ดดิกส์เพียงแต่หลักการทำงานนั้นแตกต่างจากฮาร์ดดิกส์รุ่นเก่า เป็นเทคโนโลยีใหม่ที่คนกำลังให้ความสนใจจำนวนมาก มันเป็นสิ่งที่แสดงให้เห็นถึงความก้าวหน้าทางเทคโนโลยีของหน่วยความจำหลัก การเปลี่ยนมาใช้ เอสเอสดี (SSD) ไม่ได้ปรับปรุงประสิทธิการทำงานเล็กๆ น้อยๆ แต่มันต่างกันกับฮาร์ดดิสก์ (HDD) อย่างเห็นได้ชัดเจน ในด้านความเร็วในการ Read/Write ข้อมูล เร็วกว่า มีผลทดสอบในการอ่านเร็วกว่า Harddisk ปกติ 3-8 เท่า เขียน เร็วกว่า 2-5 เท่า
                     </div>
@@ -382,7 +382,7 @@
                   <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <div class="d-flex justify-content-between">
                         <h6 class="mb-0">มี Web Hosting ที่ใช้ส่ง Mail ได้อยู่แล้ว ทำไมต้องเปลี่ยนมาใช้ Cloud Email Hosting ?</h6>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down "></i>
                     </div>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -395,7 +395,7 @@
                   <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <div class="d-flex justify-content-between">
                         <h6 class="mb-0">Metrabyte ONE มีช่องทาง Support อย่างไร?</h6>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down "></i>
                     </div>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -443,17 +443,17 @@
                         <form>
                           <div class="form-row">
                             <div class="form-group col-md-6">
-                              <input type="text" class="form-control" id="inputName" placeholder="ชื่อ - นามสกุล">
+                              <input type="text" class="form-control" id="inputName" placeholder="ชื่อ - นามสกุล" required>
                             </div>
                             <div class="form-group col-md-6">
-                              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
                             </div>
                           </div>
                           <div class="form-group">
-                            <input type="text" class="form-control" id="inputSubject" placeholder="หัวเรื่อง">
+                            <input type="text" class="form-control" id="inputSubject" placeholder="หัวเรื่อง" required>
                           </div>
                           <div class="form-group">
-                            <textarea class="form-control" id="FormControlTextarea1" rows="8"></textarea>
+                            <textarea class="form-control" id="FormControlTextarea1" rows="8" required></textarea>
                           </div>
                           <div class="text-right">
                               <button type="submit" class="btn btn-blu">ส่งข้อความ</button>
@@ -469,19 +469,24 @@
     <script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
     <script type="text/javascript">
+
+    // Slide
         $('.owl-carousel').owlCarousel({
             loop:true,
             items:1,
             nav:true,
             navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"]
         })
-
+    
+    // Number Count
         jQuery(document).ready(function($) {
             $('.counter').counterUp({
                 delay: 30,
                 time: 1000
             });
         });
+
+
     </script>
   </body>
 </html>
